@@ -12,6 +12,16 @@
 .black{
     font-weight: bold;
 }
+
+.Book_button{
+    padding: 10px;
+    display: flex;
+    background-color: #FF5766;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
 .semi-bold{
     color: black;
     font-weight: bold;
@@ -81,13 +91,20 @@ body {
     padding: 3rem 0;
     margin-top: 3rem;
 }
+.See_button{
+    background-color: #FF5766;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+}
 .start-now-btn {
     background-color: #FF5766;
     border-color: #FF5766;
 }
 .start-now-btn:hover {
-    background-color: #ff3e50;
-    border-color: #ff3e50;
+    background-color: #FF5766;
+    border-color: #FF5766;
 }
 .final-section {
     height: 100%;
@@ -106,3 +123,4 @@ body {
     height: 10px;
     border-radius: 50%;
 }
+
